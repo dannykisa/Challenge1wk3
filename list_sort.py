@@ -1,18 +1,11 @@
+w = [5, 4,'p', 6.4]
+
 def list_sort(w):
 
     character = []
     odds = []
     evens = []
     mydict = dict()
-    if not isinstance(w, list):
-        return 'Invalid Input'
-
-    if not w:
-        
-        mydict['chars'] = character
-        mydict['odds'] = odds
-        mydict['evens'] = evens
-        return mydict
 
     for k in w:
 
@@ -32,4 +25,4 @@ def list_sort(w):
     return mydict
 
 
-print(list_sort([4, 8, 9, 5, 'p']))
+print(list_sort([5, 4,'p', 6.4]))
